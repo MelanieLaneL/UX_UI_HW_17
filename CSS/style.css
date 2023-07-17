@@ -68,3 +68,69 @@ body {
     font-family: 'Shippori Mincho B1', serif;
 
 }
+footer {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    clear: both;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px; 
+  }
+  
+  .footer1 {
+    font-family: 'Big Shoulders Display', 'Lato', 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 50px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  
+  .footer-logo {
+    text-align: right;
+  }
+  .contact-form {
+    width: 400px;
+    margin-right: 150px; 
+  }
+  
+  .contact-form h3 {
+    font-size: 18px;
+  }
+  
+  .form-field {
+    margin-bottom: 10px;
+  }
+  
+  .form-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-field input,
+  .form-field textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    background-color: #DCFEEA;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+  }

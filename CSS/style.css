@@ -32,7 +32,7 @@ body {
         font-family: 'Lato', sans-serif;
         font-family: 'Open Sans', sans-serif;
         font-family: "Big shoulders display", sans-serif;
-        font-size: 16px;
+        font-size: 24px;
         
 }
  
@@ -56,9 +56,11 @@ body {
     
 }
 .header1 {
+    margin-left: 100px;
     font-size: 64px;
 }
 .header2 {
+    margin-left: 150px;
     font-size: 48px;
 }
 
@@ -95,8 +97,8 @@ footer {
     margin-bottom: 10px;
   }
   
-  .footer-logo {
-    text-align: right;
+  .Footerlogo {
+    text-align: left;
   }
   .contact-form {
     width: 400px;
@@ -104,6 +106,10 @@ footer {
   }
   
   .contact-form h3 {
+    font-family: 'Big Shoulders Display', 'Lato', 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 50px;
+    line-height: 1.2;
     font-size: 18px;
   }
   
@@ -126,6 +132,10 @@ footer {
   }
   
   button[type="submit"] {
+    font-family: 'Big Shoulders Display', 'Lato', 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 50px;
+    line-height: 1.2;
     background-color: #DCFEEA;
     color: black;
     border: none;
